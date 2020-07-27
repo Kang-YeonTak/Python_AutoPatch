@@ -1,2 +1,2 @@
 # Python_AutoPatch
- All the source code in this is my own code, and it is open source.
+ 서버리스트(.CSV)로부터 서버 정보를 전달받아 순차적으로 서버에 접속하여 버전 비교 및 프로세스 종료-실행을 통해 패치 자동화 구현
