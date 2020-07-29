@@ -57,11 +57,11 @@ file_handler = logging.FileHandler('\\log\\vpatch.log')
 file_handler.setFormatter(formatter)
 mylogger.addHandler(file_handler)
 
-
+# 로그 시작
 def log_start():
     mylogger.info("=============== Start ===============")
 
-
+# 로그 끝
 def log_end():
     mylogger.info("================ END ================")
 
@@ -76,7 +76,7 @@ def key_error():
     log_end()
     sys.exit(1)
 
-
+# 사용 방법
 def help_me():
     print("Usage:")
     print("  vpatch [option] <command>")
