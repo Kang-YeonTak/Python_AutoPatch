@@ -41,9 +41,9 @@ ms_ver_chk          = './vms/master_server -version'
 rs_ver_chk          = './vms/recording_server -version'
 patch_path          = 'C:\\temp\\patch_file\\'
 patch_drv_path      = 'C:\\temp\\patch_file\\driver\\'
-patch_ms_path          = 'C:\\temp\\patch_file\\master_server'
-patch_lib_path          = 'C:\\temp\\patch_file\\lib\\'
-patch_conf_path          = 'C:\\temp\\patch_file\\conf\\'
+patch_ms_path       = 'C:\\temp\\patch_file\\master_server'
+patch_lib_path      = 'C:\\temp\\patch_file\\lib\\'
+patch_conf_path     = 'C:\\temp\\patch_file\\conf\\'
 
 
 master_start        = './vms/run_master.sh start'
